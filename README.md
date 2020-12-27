@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/bood-dev/vrem/tree/development/public/img/vrem.png" width="400"></p>
+<p align="center"><img src="https://github.com/bood-dev/vrem/blob/development/public/img/vrem.png" width="400"></p>
 
 ## About Vrem
 
