@@ -35,7 +35,7 @@
         <div class="menu-item dropdown">
             <a href="#" data-toggle="dropdown" data-display="static" class="menu-link">
                 <div class="menu-img online">
-                    <img src="{{ asset('assets/img/user.jpg') }}" alt="{{ Auth::user()->name }}" class="mw-100 mh-100 rounded-circle" />
+                    <img src="{{ asset('assets/img/user.png') }}" alt="{{ Auth::user()->name }}" class="mw-100 mh-100 rounded-circle" />
                 </div>
                 <div class="menu-text">{{ Auth::user()->name }}</div>
             </a>

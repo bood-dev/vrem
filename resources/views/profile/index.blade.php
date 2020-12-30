@@ -50,7 +50,7 @@
                                     <div class="list-group list-group-flush">
                                         <div class="list-group-item d-flex align-items-center">
                                             <div class="flex-fill">
-                                                <form action="{{ route('profile.changePassword') }}" method="POST">
+                                                <form action="{{ route('profile.change_password') }}" method="POST">
                                                     @csrf
                                                     @if (Session::has('success'))
                                                         <div class="alert alert-success alert-dismissable fade show">

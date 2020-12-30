@@ -18,19 +18,13 @@
                 Here are some helpful links instead:
             </p>
             <p class="mb-4">
-                <a href="/">Home</a>
+                <a href="{{ route('home') }}">Home</a>
                 <span class="link-divider"></span>
-                <a href="/">Search</a>
+                <a href="{{ route('checklists.index')}}">Checklists</a>
                 <span class="link-divider"></span>
-                <a href="/">Email</a>
-                <span class="link-divider"></span>
-                <a href="/">Calendar</a>
-                <span class="link-divider"></span>
-                <a href="/">Settings</a>
-                <span class="link-divider"></span>
-                <a href="/">Helper</a>
+                <a href="{{ route('controls.index') }}">Controls</a>
             </p>
-            <a href="/" class="btn btn-primary">Go to Home</a>
+            <a href="{{ route('home') }}" class="btn btn-primary">Go to Home</a>
         </div>
         <!-- END error-page-content -->
     </div>

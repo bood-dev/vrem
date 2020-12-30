@@ -12,8 +12,7 @@ git clone https://github.com/bood-dev/vrem.git
 composer install
 
 php artisan migrate
-
-php artisan db:seed --class=UserSeeder
+php artisan db:seed
 ```
 **Default user**
 

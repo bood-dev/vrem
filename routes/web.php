@@ -22,4 +22,7 @@ Auth::routes(['register' => false]);
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/profile', 'ProfileController@index')->name('profile.index');
-Route::post('/profile', 'ProfileController@changePassword')->name('profile.changePassword');
+Route::post('/profile', 'ProfileController@changePassword')->name('profile.change_password');
+
+Route::resource('checklists', 'Checklist\ChecklistController');
+Route::resource('controls', 'Checklist\ControlController');
