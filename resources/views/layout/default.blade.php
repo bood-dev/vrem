@@ -5,14 +5,17 @@
 </head>
 <body class="{{ (!empty($bodyClass)) ? $bodyClass : '' }}">
 	<!-- BEGIN #app -->
-	<div id="app" class="app {{ (!empty($appClass)) ? $appClass : '' }}">
+	<div id="app" class="app app-footer-fixed">
 		@include('layout.partial.header')
 
 		@includeWhen(empty($sidebarHide), 'layout.partial.sidebar')
 
 	    @yield('content')
 
-		@includeWhen(!empty($footer), 'layout.partial.footer')
+		<div id="footer" class="app-footer">
+			<i class="fab fa-github"></i><a href="https://github.com/bood-dev" target="blank"> bood-dev</a>
+			&nbsp;&nbsp;© {{ date('Y') }}
+		</div>
 	</div>
 	<!-- END #app -->
 
