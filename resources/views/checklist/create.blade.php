@@ -13,7 +13,6 @@
                 <h1 class="page-header mb-0">New checklist</h1>
             </div>
         </div>
-
         
         <div class="card">
             <div class="tab-content p-4">

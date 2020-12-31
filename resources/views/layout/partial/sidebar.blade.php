@@ -11,12 +11,6 @@
 					<span class="menu-text">Dashboard</span>
 				</a>
 			</div>
-			<div class="menu-item">
-				<a href="#" class="menu-link">
-					<span class="menu-icon"><i class="fa fa-chart-pie"></i></span>
-					<span class="menu-text">Analytics</span>
-				</a>
-			</div>
 
 			<div class="menu-divider"></div>
 			<div class="menu-header">Project</div>
@@ -33,12 +27,6 @@
 				<a href="{{ route('checklists.index') }}" class="menu-link">
 					<span class="menu-icon"><i class="fas fa-clipboard-list"></i></span>
 					<span class="menu-text">Checklists</span>
-				</a>
-			</div>
-			<div class="menu-item">
-				<a href="{{ route('controls.index') }}" class="menu-link">
-					<span class="menu-icon"><i class="fas fa-certificate"></i></span>
-					<span class="menu-text">Controls</span>
 				</a>
 			</div>
 

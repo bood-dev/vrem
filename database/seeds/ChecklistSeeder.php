@@ -18,11 +18,6 @@ class ChecklistSeeder extends Seeder
         $checklist->save();
 
         $checklist = new Checklist;
-        $checklist->name = 'API';
-        $checklist->description = 'Description for API security checklist';
-        $checklist->save();
-
-        $checklist = new Checklist;
         $checklist->name = 'Mobile';
         $checklist->description = 'Description for mobile security checklist';
         $checklist->save();

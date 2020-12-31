@@ -5,10 +5,10 @@ namespace App\Http\Controllers\Checklist;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class ControlController extends Controller
+class RequirementController extends Controller
 {
 
-    public function __construct()
+    public function __construct() 
     {
         $this->middleware('auth');
     }
@@ -20,7 +20,7 @@ class ControlController extends Controller
      */
     public function index()
     {
-        return view('control.index');
+        //
     }
 
     /**
@@ -30,7 +30,7 @@ class ControlController extends Controller
      */
     public function create()
     {
-        //
+        return view('checklist.requirement.create');
     }
 
     /**
