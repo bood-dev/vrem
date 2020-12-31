@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Checklist;
+use App\Models\Checklist\Checklist;
 
 class ChecklistSeeder extends Seeder
 {

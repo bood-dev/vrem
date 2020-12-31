@@ -26,3 +26,4 @@ Route::post('/profile', 'ProfileController@changePassword')->name('profile.chang
 
 Route::resource('checklists', 'Checklist\ChecklistController');
 Route::resource('controls', 'Checklist\ControlController');
+Route::resource('projects', 'ProjectController');

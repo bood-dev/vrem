@@ -27,7 +27,6 @@
                     </p>
                 </div>
             </div>
-
         @else
             <div class="card">
                 <div class="tab-content p-4">

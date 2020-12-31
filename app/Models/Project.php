@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Models\Checklist;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Checklist extends Model
+class Project extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -12,7 +12,9 @@ class Checklist extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 
+        'name',
         'description',
+        'url',
+        'ip'
     ];
 }
