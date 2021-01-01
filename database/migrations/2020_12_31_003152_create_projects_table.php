@@ -17,9 +17,9 @@ class CreateProjectsTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name', 100);
-            $table->string('description', 200);
-            $table->string('ip', 20);
-            $table->string('url', 100);
+            $table->string('description', 200)->nullable();
+            $table->string('ip', 20)->nullable();
+            $table->string('url', 100)->nullable();
         });
     }
 

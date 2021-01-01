@@ -21,6 +21,7 @@ class Requirement extends Model
         'is_security_level_1',
         'is_security_level_2',
         'is_security_level_3',
+        'testing_procedures',
         'cwe',
         'cwe_link',
     ];

@@ -35,7 +35,7 @@
 
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name">
+                        <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" autocomplete="off">
 
                         @if ($errors->has('name'))
                             <div class="invalid-feedback">{{ $errors->first('name') }}</div>
@@ -44,7 +44,7 @@
 
                     <div class="form-group">
                         <label for="description">Description</label>
-                        <input type="text" class="form-control @error('description') is-invalid @enderror" id="description" name="description">
+                        <input type="text" class="form-control @error('description') is-invalid @enderror" id="description" name="description" autocomplete="off">
                         <small id="passwordHelpBlock" class="form-text text-muted">
                             Optional.
                         </small>

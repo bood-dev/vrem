@@ -70,8 +70,9 @@ class ChecklistController extends Controller
     public function show($id)
     {
         $checklist = Checklist::findOrFail($id);
+        $requirements = Checklist::findOrFail($id)->requirements;
 
-        return view('checklist.show', compact('checklist'));
+        return view('checklist.show', compact('checklist', 'requirements'));
     }
 
     /**

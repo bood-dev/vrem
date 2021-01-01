@@ -15,4 +15,11 @@ class Checklist extends Model
         'name', 
         'description',
     ];
+
+    /**
+     * Get the requirements for the checklist
+     */
+    public function requirements() {
+        return $this->hasMany('App\Models\Checklist\Requirement');
+    }
 }

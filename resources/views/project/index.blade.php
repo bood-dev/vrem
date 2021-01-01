@@ -53,8 +53,7 @@
                                 <thead>
                                     <tr>
                                         <th class="border-bottom-0 border-top-0 pt-0 pb-2">Name</th>
-                                        <th class="border-bottom-0 border-top-0 pt-0 pb-2">IP</th>
-                                        <th class="border-bottom-0 border-top-0 pt-0 pb-2">URL</th>
+                                        <th class="border-bottom-0 border-top-0 pt-0 pb-2">Project type</th>
                                         <th class="border-bottom-0 border-top-0 pt-0 pb-2">Date</th>
                                         <th class="border-bottom-0 border-top-0 pt-0 pb-2">Status</th>
                                     </tr>
@@ -63,8 +62,7 @@
                                     @foreach ($projects as $project)
                                         <tr>
                                             <td class="align-middle"><a href="{{ route('projects.show', $project->id) }}">{{ $project->name }}</a></td>
-                                            <td class="align-middle">{{ $project->ip }}</td>
-                                            <td class="align-middle">{{ $project->url }}</td>
+                                            <td class="align-middle">Web Application</td>
                                             <td class="align-middle">{{ $project->created_at }}</td>
                                             <td class="align-middle"><span class="badge bg-yellow-transparent-5 text-black-transparent-5 px-2 pt-5px pb-5px rounded fs-12px d-inline-flex align-items-center"><i class="fa fa-circle fs-9px fa-fw mr-5px"></i> In progress</span></td>
                                         </tr>

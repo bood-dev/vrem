@@ -18,7 +18,7 @@ class ChecklistSeeder extends Seeder
         $checklist->save();
 
         $checklist = new Checklist;
-        $checklist->name = 'Mobile';
+        $checklist->name = 'Mobile Application Security Requirements - Android';
         $checklist->description = 'Description for mobile security checklist';
         $checklist->save();
     }
